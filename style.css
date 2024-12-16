@@ -6,3 +6,10 @@ header{
     align-items: center;
     padding-inline: 40px;
 }
+ul, li{
+list-style: none;
+}
+
+li a{
+text-decoration: none;
+}
