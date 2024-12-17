@@ -1,8 +1,52 @@
-/* Header section */
-header{
-    background-color: #c0c0c0;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    padding-inline: 40px;
+body{
+  width: 100%;
+  background-color: #F9F9F9;
+  margin: 0; /* Remove any default margin from the body */
+  padding: 0; /* Ensure no padding on the body *
+}
+
+/* header start */
+#header{
+  background-color:#D8B4FE;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  margin: 0%;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);;
+}
+
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ position: sticky;
+ z-index: 10;
+}
+#navbar li{
+  list-style: none;
+  padding:0% 20px;  
+  position: relative;
+}
+#navbar li a{
+  text-decoration: none;
+  height: 16px;
+  width: 600;
+  color: #1E293B;
+  transition: 0.3s ease;
+}
+#navbar li a:hover,#navbar li a.active{
+  color: #3B82F6;
+}
+
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+  content: "";
+  height: 2px;
+  width: 30%;
+  background: white;
+  bottom: -2px;
+  left:20px; 
+  position: absolute;
 }
