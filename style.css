@@ -65,7 +65,7 @@ body{
   content: "";
   height: 2px;
   width: 30%;
-  background: white;
+  background: #3B82F6;
   bottom: -2px;
   left:20px; 
   position: absolute;
@@ -120,7 +120,7 @@ body{
 
 }
 
-/* feature section start */
+  /* feature section start */
 #feature {
  flex-wrap: wrap;
   width: 95%;
@@ -154,5 +154,128 @@ border: 1px #D8B4FE;
   display: inline-block;
   padding: 4px 8px;
   border-radius: 4px;
-  opacity: 80%;
+  
 }
+
+/* feature  products section start */
+#pro-heading {
+  text-align: center; /* Center-aligns the text */
+  margin: 20px 0; /* Adds vertical spacing */
+}
+
+#pro-heading h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #3B82F6; /* Primary color for the heading */
+  margin-bottom: 10px; /* Space between heading and subheading */
+}
+
+#pro-heading h5 {
+  font-size: 18px;
+  color: #6B7280; /* Subtle color for subheading */
+  margin: 0; /* No extra margin for subheading */
+}
+
+#pro-section {
+  width: 95%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+#pro {
+  width: 225px;
+  padding: 20px 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  border: 1px solid #D8B4FE;
+  border-radius: 8px;
+  background-color: #F5F3FF;
+  margin: 15px;
+}
+
+#pro-img {
+  width: 100%;
+  height: 200px; /* Set height for consistent image size */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px; /* Add space below the image */
+  border-radius: 15px;
+}
+
+#pro-img img {
+  width: 100%; /* Make the image fit the container */
+  height: auto;
+  object-fit: cover; /* Ensures the image scales without stretching */
+}
+
+#pro-discription {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#pro-discription span {
+  font-size: 14px;
+  color: #6B7280;
+  margin-bottom: 5px;
+  text-align: left; /* Align text to the left */
+}
+
+#pro-discription h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4B5563;
+  margin: 5px 0;
+  text-align: left; /* Align text to the left */
+}
+
+#pro-discription .price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pro-discription .price-container h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3B82F6;
+  margin: 5px 0;
+  text-align: left; /* Align price to the left */
+}
+
+#pro a {
+  color: #6B7280;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+#pro a:hover {
+  color: #4C1D95;
+}
+#pro-discription .price-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; /* Width and height for the circular icon */
+  height: 40px;
+  background-color: #7baeff; /* Background color for the circle */
+  color: white; /* Icon color */
+  border-radius: 50%; /* Makes the background circular */
+  text-decoration: none;
+  font-size: 18px;
+  transition: transform 0.3s, background-color 0.3s;
+  margin-right: 10px;
+}
+
+#pro-discription .price-container a:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  background-color: #9baeff; /* Lighter shade for hover effect */
+}
+
+
+
