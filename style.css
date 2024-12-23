@@ -410,3 +410,139 @@ border: 1px #D8B4FE;
   background-image: url(img/banner/b16.jpg);
 }
 
+/* start of newsletter section */
+#newsletter{
+  margin-top: 20px;
+  padding: 10px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("img/banner/b14.png");
+  background-size: cover;
+  background-color: #D8B4FE;
+}
+#newsletter .lettertext h2{
+  color: #3B82F6;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-bottom: 0;
+}
+#newsletter .lettertext p{
+  font-weight: bold;
+  margin-top: 2px;
+  font-size: large;
+}
+#newsletter .lettertext span{
+color:#1B82F6;
+}
+
+.inputbox input[type="email"] {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius:0% ;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin-right: 0%;
+  background-color:#e4d2ff ;
+}
+.inputbox input[type="email"]:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.inputbox button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: -4px;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius:0% ;
+
+}
+
+
+.inputbox button:hover {
+  background-color: #0056b3; 
+}
+
+
+/* start of Footer section */
+footer{
+  padding: 10px 80px; 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+footer .clon{
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+footer a{
+  text-decoration: none;
+  color: #6b6c6e;
+  margin-bottom: 5px;
+}
+
+footer p{
+  color: #6b6c6e;
+  margin-top: 5%;
+  margin-bottom: 5px;
+
+}
+footer h4{
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+footer .icon{
+  color: #6b6c6e;
+}
+footer .images img {
+  border: 2px solid#98c8fc; 
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 3px; 
+}
+footer .icon i {
+  margin-right: 5px; 
+  font-size: 15px; 
+}
+footer .icon i:hover {
+  cursor: pointer;
+  color: #1B82F6;
+}
+
+footer .clon a:hover {
+  cursor: pointer;
+  color: #1B82F6;
+}
+footer .clon:nth-child(4) p {
+  margin-bottom: 15px; 
+}
+footer .clon:first-child p {
+  margin-bottom: 5px;
+  margin-top: 0%;
+}
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  width: 100%; 
+}
+
+
+
